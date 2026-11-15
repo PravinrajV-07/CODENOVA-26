@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build
+dist/
+build/
+*/dist/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# SQLite Database & Temporary Uploads
+backend/*.db
+backend/brandcue.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE & OS files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+*.log
